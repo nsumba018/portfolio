@@ -36,6 +36,21 @@
   color: #7843e9;
 }
 
+.resume-btn {
+  background-color: #2d2e32;
+  color: #fff !important;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #7843e9;
+  color: #fff !important;
+}
+
 @media (max-width: 600px) {
   .header {
     padding: 12px 20px;

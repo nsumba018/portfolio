@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herve IRAKOZE NSUMBA - Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 11pt;
+      line-height: 1.4;
+      color: #1a1a1a;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in 0.6in;
+      background: #fff;
+    }
+
+    /* Header */
+    .header { text-align: center; margin-bottom: 14px; }
+    .header h1 { font-size: 18pt; font-weight: bold; letter-spacing: 1px; margin-bottom: 4px; }
+    .header .program { font-size: 11pt; font-style: italic; margin-bottom: 4px; }
+    .header .contact { font-size: 10pt; color: #333; }
+    .header .contact a { color: #1a1a1a; text-decoration: none; }
+    .header .contact a:hover { text-decoration: underline; }
+
+    /* Section */
+    .section { margin-bottom: 12px; }
+    .section-title {
+      font-size: 12pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid #1a1a1a;
+      padding-bottom: 2px;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Profile */
+    .profile p { text-align: justify; }
+
+    /* Education */
+    .edu-item { margin-bottom: 6px; }
+    .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
+    .edu-row .degree { font-weight: bold; }
+    .edu-row .date { font-style: italic; font-size: 10pt; white-space: nowrap; }
+    .edu-school { font-style: italic; color: #333; }
+
+    /* Experience */
+    .exp-item { margin-bottom: 10px; }
+    .exp-header { display: flex; justify-content: space-between; align-items: baseline; }
+    .exp-header .role { font-weight: bold; }
+    .exp-header .date { font-style: italic; font-size: 10pt; white-space: nowrap; }
+    .exp-company { font-style: italic; color: #333; margin-bottom: 3px; }
+    ul { margin-left: 18px; }
+    ul li { margin-bottom: 2px; }
+
+    /* Projects */
+    .proj-item { margin-bottom: 10px; }
+    .proj-header { display: flex; justify-content: space-between; align-items: baseline; }
+    .proj-header .proj-name { font-weight: bold; }
+    .proj-tech { font-style: italic; font-size: 10pt; color: #444; margin-bottom: 3px; }
+
+    /* Skills */
+    .skills-grid { display: grid; grid-template-columns: 140px 1fr; row-gap: 4px; }
+    .skills-label { font-weight: bold; }
+
+    /* Interests */
+    .interests p { text-align: justify; }
+
+    /* References */
+    .references p { font-style: italic; color: #555; }
+
+    @media print {
+      body { padding: 0.4in 0.5in; }
+      a { color: #1a1a1a !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. Name, Program, Contact -->
+  <div class="header">
+    <h1>HERVE IRAKOZE NSUMBA</h1>
+    <div class="program">Bachelor of Science in Software Engineering</div>
+    <div class="contact">
+      Kigali, Rwanda &nbsp;|&nbsp;
+      +250 799 902 073 &nbsp;|&nbsp;
+      <a href="mailto:nsumbaherve11@gmail.com">nsumbaherve11@gmail.com</a><br />
+      <a href="https://github.com/nsumba018">github.com/nsumba018</a> &nbsp;|&nbsp;
+      <a href="https://www.linkedin.com/in/herve-irakoze-nsumba-288176339">linkedin.com/in/herve-irakoze-nsumba</a>
+    </div>
+  </div>
+
+  <!-- 2. Personal Profile Statement -->
+  <div class="section profile">
+    <div class="section-title">Personal Profile</div>
+    <p>
+      Software Engineering student with hands-on experience building full-stack web applications,
+      backend systems, and data pipelines. Experienced with Java, Spring Boot, Python, JavaScript,
+      React, Next.js, PostgreSQL, Docker, and Git. Strong analytical and problem-solving skills
+      developed through software engineering coursework, traineeships, and personal projects.
+      Interested in backend engineering, data engineering, and technology-driven solutions for
+      social and institutional impact.
+    </p>
+  </div>
+
+  <!-- 3. Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-row">
+        <span class="degree">Bachelor of Science in Software Engineering</span>
+        <span class="date">2023 &ndash; Dec 2027</span>
+      </div>
+      <div class="edu-school">Adventist University of Central Africa (AUCA), Kigali, Rwanda</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-row">
+        <span class="degree">Advanced Level &mdash; Physics, Chemistry, Biology (PCB)</span>
+        <span class="date">Completed Jan 2023</span>
+      </div>
+      <div class="edu-school">Coll&egrave;ge du Christ Roi, Nyanza, Rwanda</div>
+    </div>
+  </div>
+
+  <!-- 4. Professional Experience -->
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="role">Software Engineer Trainee</span>
+        <span class="date">Dec 2025 &ndash; May 2026</span>
+      </div>
+      <div class="exp-company">Africa to Silicon Valley (A2SV)</div>
+      <ul>
+        <li>Trained in data structures and algorithms with a focus on solving real-world competitive programming problems</li>
+        <li>Applied algorithmic thinking to optimize application performance and build efficient, responsive solutions</li>
+      </ul>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <span class="role">React Developer Trainee</span>
+        <span class="date">Nov 2025 &ndash; Jan 2026</span>
+      </div>
+      <div class="exp-company">Solvit Africa</div>
+      <ul>
+        <li>Built user interfaces using React with a component-based architecture</li>
+        <li>Developed front-end applications and collaborated on responsive design implementation</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 5. Projects -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="proj-item">
+      <div class="proj-header">
+        <span class="proj-name">JobPortal Web Application</span>
+      </div>
+      <div class="proj-tech">React, Spring Boot, Docker, REST API, PostgreSQL</div>
+      <ul>
+        <li>Built a full-stack application connecting job providers with job seekers, where employers post positions and candidates browse and apply</li>
+        <li>Developed the REST API backend with Spring Boot and PostgreSQL, and the React frontend with responsive design</li>
+        <li>Containerized the application using Docker for consistent development and deployment</li>
+      </ul>
+    </div>
+
+    <div class="proj-item">
+      <div class="proj-header">
+        <span class="proj-name">Artha &amp; Alita Apartments &mdash; Booking Platform</span>
+      </div>
+      <div class="proj-tech">Next.js</div>
+      <ul>
+        <li>Collaboratively built a website and booking system for two apartments in Kigali, allowing users to browse listings, view details, and make reservations</li>
+        <li>Implemented responsive UI and integrated booking workflows using Next.js</li>
+      </ul>
+    </div>
+
+    <div class="proj-item">
+      <div class="proj-header">
+        <span class="proj-name">Electric Power Analytics &mdash; Data Pipeline</span>
+      </div>
+      <div class="proj-tech">Python, PostgreSQL, GitHub Actions, Tableau</div>
+      <ul>
+        <li>Built an end-to-end data pipeline: World Bank API &rarr; PostgreSQL &rarr; cleaned analysis table &rarr; forecasts &rarr; Tableau dashboard</li>
+        <li>Automated daily data refresh using GitHub Actions on free infrastructure with zero server maintenance</li>
+        <li>Integrated an AI assistant that answers analytical questions in plain English</li>
+      </ul>
+    </div>
+
+    <div class="proj-item">
+      <div class="proj-header">
+        <span class="proj-name">Idempotency Gateway (Pay-Once Protocol)</span>
+      </div>
+      <div class="proj-tech">Spring Boot, REST API, PostgreSQL</div>
+      <ul>
+        <li>Developed a Spring Boot REST API that prevents duplicate payment processing using an Idempotency-Key header</li>
+        <li>Simulated a fintech payment backend where repeated requests with the same key are processed exactly once</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 6. Skills & Certifications -->
+  <div class="section">
+    <div class="section-title">Skills &amp; Certifications</div>
+    <div class="skills-grid">
+      <span class="skills-label">Languages:</span>
+      <span>Java, Python, JavaScript, SQL</span>
+      <span class="skills-label">Frameworks:</span>
+      <span>Spring Boot, React, Next.js</span>
+      <span class="skills-label">Databases:</span>
+      <span>PostgreSQL, Snowflake</span>
+      <span class="skills-label">Tools:</span>
+      <span>Git &amp; GitHub, Docker, Jupyter Notebook, Tableau</span>
+      <span class="skills-label">Other:</span>
+      <span>REST APIs, Data Analysis, Data Cleaning, Linux</span>
+    </div>
+    <div style="margin-top: 8px;">
+      <strong>Certifications:</strong>
+      Object-Oriented Programming in Java &mdash; Coursera/IBM (2026) &nbsp;|&nbsp;
+      Java Programming For Beginners &mdash; Coursera/IBM (2026) &nbsp;|&nbsp;
+      Software Development Intermediate &mdash; Digital Talent Program, Rwanda ICT Chamber (2025) &nbsp;|&nbsp;
+      Responsive Web Design &mdash; freeCodeCamp (2024) &nbsp;|&nbsp;
+      Professional Scrum Master I &mdash; Scrum.org (2024)
+    </div>
+  </div>
+
+  <!-- 7. Interests & Achievements -->
+  <div class="section interests">
+    <div class="section-title">Interests &amp; Achievements</div>
+    <p>
+      Passionate about backend software engineering, data engineering, cloud technologies,
+      problem solving &amp; algorithms, and leveraging technology for social and institutional impact.
+    </p>
+    <p style="margin-top: 4px;">
+      <strong>Achievement:</strong> 50 Days Badge on LeetCode (2026) &mdash; consistent daily problem solving in data structures and algorithms.
+    </p>
+  </div>
+
+</body>
+</html>

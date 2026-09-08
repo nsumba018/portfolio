@@ -5,15 +5,11 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="hero-content">
         <h1>
-          Full-Stack Developer
-          <br />
-          & Data Engineering
-          <br />
-          Enthusiast <span className="wave">&#x1F44B;</span>
+          Junior Fullstack Developer <span className="wave">&#x1F44B;</span>
         </h1>
         <p className="hero-description">
-          Hi, I'm IRAKOZE Nsumba Herve. A passionate Full-Stack Developer
-          and aspiring Data Engineer based in Kigali, Rwanda.{' '}
+          Hi, I'm IRAKOZE Nsumba Herve. A passionate Junior Fullstack Developer
+          based in Kigali, Rwanda.{' '}
           <span className="pin">&#x1F4CD;</span>
         </p>
         <div className="hero-socials">

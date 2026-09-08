@@ -19,6 +19,7 @@ const collaborativeProjects: Project[] = [
       'A website and booking system for two apartments located in Kigali. Users can browse available apartments, view details, and make reservations seamlessly through the platform.',
     tech: ['Next.js'],
     status: 'building',
+    liveUrl: 'https://ingoma-stays.vercel.app/',
     image: '/projects/artha-alita-apartments.png',
   },
   {
