@@ -10,14 +10,14 @@
 .tech-stack-label {
   font-size: 0.85rem;
   font-weight: 600;
-  color: #2d2e32;
+  color: var(--text-primary);
   white-space: nowrap;
 }
 
 .tech-stack-divider {
   width: 2px;
   height: 30px;
-  background-color: #d1d1d1;
+  background-color: var(--divider);
 }
 
 .tech-stack-icons {

@@ -51,9 +51,12 @@ const Hero = () => {
 
       <div className="hero-image">
         <div className="profile-photo-wrapper">
-          <div className="profile-photo-circle"></div>
-          <div className="profile-photo-placeholder">
-            <span>Photo</span>
+          <div className="profile-photo-circle">
+            <img
+              src="/images/passport.jpeg"
+              alt="IRAKOZE Nsumba Herve"
+              className="profile-photo"
+            />
           </div>
         </div>
       </div>
