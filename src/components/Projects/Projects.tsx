@@ -38,8 +38,8 @@ const personalProjects: Project[] = [
     title: 'JobPortal Web Application',
     description:
       'A full-stack web application that connects job providers with job seekers. Employers can post job positions while candidates can browse and apply for jobs through the platform.',
-    tech: ['React', 'Spring Boot', 'Spring Security', 'Docker', 'REST API', 'PostgreSQL'],
-    status: 'building',
+    tech: ['React', 'Spring Boot', 'Spring Security', 'Docker', 'REST API', 'MySQL'],
+    status: 'done',
     image: '/projects/jobportal.png',
   },
   {
