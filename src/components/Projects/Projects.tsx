@@ -32,15 +32,6 @@ const collaborativeProjects: Project[] = [
     liveUrl: 'https://ingoma-stays.vercel.app/',
     image: '/projects/artha-alita-apartments.png',
   },
-  {
-    title: 'Auntentic Media Group',
-    description:
-      'A website for a media group where they can post news articles and live stream both their radio and TV channels to their audience.',
-    tech: ['Next.js'],
-    status: 'building',
-    liveUrl: 'https://auntentic-media-group.vercel.app/',
-    image: '/projects/auntentic-media-group.png',
-  },
 ];
 
 const personalProjects: Project[] = [
