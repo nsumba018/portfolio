@@ -15,6 +15,15 @@ interface Project {
 
 const collaborativeProjects: Project[] = [
   {
+    title: 'SkillSense: National Skills Intelligence Platform',
+    description:
+      'A data-driven platform that collects real job postings from five Rwandan job boards and combines them with NISR Labour Force Survey data to forecast workforce demand. Features ML-powered role forecasting, geographic demand mapping, curriculum alignment analysis, and student employability assessment across 9 economic sectors.',
+    tech: ['React', 'Spring Boot', 'Python', 'LightGBM', 'PostgreSQL'],
+    status: 'done',
+    liveUrl: 'https://skillsense-swart.vercel.app/',
+    image: '/projects/skillsense.png',
+  },
+  {
     title: 'Artha & Alita Apartments',
     description:
       'A website and booking system for two apartments located in Kigali. Users can browse available apartments, view details, and make reservations seamlessly through the platform.',
